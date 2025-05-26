@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = '0.2.1'
+VERSION = '0.2.2'
 PACKAGE_NAME = 'eod'
 AUTHOR = 'Lautaro Parada Opazo'
 AUTHOR_EMAIL = 'lautaro.parada.opazo@gmail.com'
@@ -15,8 +15,6 @@ LONG_DESCRIPTION = (HERE / "README.md").read_text(encoding="utf8")
 LONG_DESC_TYPE = "text/markdown"
 
 INSTALL_REQUIRES = [
-      'numpy',
-      'pandas',
       'requests'
 ]
 
